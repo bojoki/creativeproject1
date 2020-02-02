@@ -33,10 +33,6 @@ color: #fff;
     color: white;
 }
 
-img {
-    width: 100%;
-}
-
 .col-lg-2 {
     margin-bottom: 15px;
 }
@@ -51,7 +47,69 @@ div .reviewer {
     width: 50px;
 }
 
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
 
+.flexbox-item {
+    width: 601px;
+    height: 800px;
+    margin-bottom: 60px;
+    border:1px solid grey;
+    background-color: white;
+    position: relative;
+}
+
+.flexbox-item-1 {
+    margin-top:60px;
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 100px;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;
+}
+.flexbox-item-4 {
+    min-height: 100px;
+}
+.flexbox-item-5 {
+    min-height: 100px;
+}
+
+.mini-profile-pic {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    width: 42px; 
+    height: 42px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.mini-profile-link {
+    position: relative;
+    top: 20px;
+    left: 70px;
+    color: black;
+}
+
+.photo {
+    position: absolute;
+    top:62px;
+}
+
+.comment {
+    position: absolute;
+    bottom:75px;
+    left:10px;
+}
 
 /* style="float:left;" */
 /* style="float:right;" */
