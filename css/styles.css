@@ -1,0 +1,57 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu */
+
+
+.bg-dark {
+    /* background-color: #7DD3D8 !important; */
+  }
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+/* color: #333; */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+}
+
+.active {
+    background-color: black !important;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+.footer a {
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.col-lg-2 {
+    margin-bottom: 15px;
+}
+
+.navbar-brand img{
+    height: 50px !important; 
+    width: 50px;
+}
+
+div .reviewer {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+/* style="float:left;" */
+/* style="float:right;" */
